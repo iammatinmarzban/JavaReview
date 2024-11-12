@@ -115,26 +115,42 @@
 //         System.out.println(Arrays.toString(numbers));
 //     }
 // }
-import java.util.Scanner;
-
+// public class App {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         Student[] studentsArr = new Student[1];
+//         for (int i = 0; i < studentsArr.length; i++) {
+//             studentsArr[i] = new Student();
+//             studentsArr[i] = new Student(i + 1);
+//             for (int j = 0; j <= 2; j++) {
+//                 System.out.println("Enter the grade:");
+//                 double input = scanner.nextDouble();
+//                 studentsArr[i].setGrades(input, j);
+//             }
+//         }
+//         System.out.println(studentsArr[0].showGrades()[2]);
+//         System.out.println(studentsArr[0].showId());
+//         System.out.println(studentsArr[0].countAvg());
+//     }
+// }
+// import java.util.Scanner;
 public class App {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Student[] studentsArr = new Student[1];
-        for (int i = 0; i < studentsArr.length; i++) {
-            studentsArr[i] = new Student();
-            studentsArr[i] = new Student(i + 1);
-            for (int j = 0; j <= 2; j++) {
-                System.out.println("Enter the grade:");
-                double input = scanner.nextDouble();
-                studentsArr[i].setGrades(input, j);
-            }
-
-        }
-
-        System.out.println(studentsArr[0].showGrades()[2]);
-        System.out.println(studentsArr[0].showId());
-        System.out.println(studentsArr[0].countAvg());
-    }
+    // public static void main(String[] args) {
+    //     Scanner scanner = new Scanner(System.in);
+    //     Object[][] books = {
+    //         {"1984", "George Orwell"},
+    //         {"To Kill a Mockingbird", "Harper Lee"},
+    //         {"The Great Gatsby", "F. Scott Fitzgerald"},
+    //         {"Pride and Prejudice", "Jane Austen"},
+    //         {"Moby-Dick", "Herman Melville"}
+    //     };
+    //     System.out.println("Welcome to Libaray");
+    //     System.out.println("Search for book name with entering 1");
+    //     System.out.println("Search for book author with entering 2");
+    //     String input = scanner.next();
+    //     for (int i = 0; i < books.length; i++) {
+    //     }
+    // I want to create a guide for the author since this looks like a CLI tool ! oooh I'm excited 
 }
+// }
